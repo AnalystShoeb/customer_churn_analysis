@@ -24,7 +24,6 @@ Usage Notes:
 
 -- Check the missing values form the 'Value_deal' Column
 -- Expectation: No Results
-
 SELECT value_deal, 
 	   COUNT(value_deal) AS TotalCount
 FROM silver.customer_data
